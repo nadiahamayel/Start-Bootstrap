@@ -1,0 +1,29 @@
+.header{
+    background-image: url(./img/bg-masthead.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(41, 39, 39, 0.6);
+    z-index: 0;
+    pointer-events: none;
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+      .nav ul {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 576px){
+     .nav ul {
+        display: none;
+    }
+}
+    
