@@ -431,6 +431,9 @@ filter:brightness(70%)
 .btn-hover:hover{
     background-color:#a33618;
 }
+.btn-hover_gray:hover{
+    background-color:#807674;
+}
 .display-no{
     display: none;
 }
