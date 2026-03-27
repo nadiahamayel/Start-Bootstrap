@@ -529,6 +529,9 @@ filter:brightness(70%)
      .flex-3div{
         flex: 1 1 calc( 50%  );
      }
+     .flex-3div-space{
+        flex: 1 1 calc( 40% - 10px );
+     }
       .line-orang::after{
     width: 30px;
    
@@ -547,10 +550,15 @@ filter:brightness(70%)
       justify-content: space-between;
      }
      .w-50{
-     width: 80%;
+     width: 75%;
+     }
+     .pt-12{
+       
+   padding-top: calc( var(--spacer) * 6 );
+
      }
       h1{
-     font-size: 20px;
+     font-size: 30px;
       }
       .display-no{
       display: block;
@@ -567,14 +575,17 @@ filter:brightness(70%)
      .flex-3div{
         flex: 1 1 100%;
      }
+     .flex-3div-space{
+        flex: 1 1 100%;
+     }
       .line-orang::after{
     width: 20px;
    
-
 }
 .line-black::after{
-    width: 30px;
+    width: 20px;
 }
+
      
 
 
